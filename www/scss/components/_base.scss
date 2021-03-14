@@ -1,0 +1,13 @@
+html {
+  cursor: default;
+  font-family: sans-serif;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  color: $g-color-off-black;
+  font-family: $g-font-primary;
+  text-rendering: optimizeLegibility;
+}

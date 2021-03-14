@@ -1,0 +1,10 @@
+# Browsers actively targeted
+
+chrome >= 60
+safari >= 11
+firefox >= 52
+firefox esr
+opera >= 47
+edge >= 79
+
+# chrome >= 60, safari >= 11, firefox >= 52, firefox esr, opera >= 47, edge >= 79

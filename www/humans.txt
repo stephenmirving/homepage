@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Stephen M Irving -- Designer / Developer / Webmaster -- @antique_land
+
+# THANKS
+
+    Sandy Irving
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, Modernizr

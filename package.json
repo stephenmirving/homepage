@@ -1,0 +1,50 @@
+{
+  "name": "homepage",
+  "version": "0.0.1",
+  "description": "My personal homepage that includes my work portfolio, my cv, and a collection of some of my technical writing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenmirving/homepage.git"
+  },
+  "keywords": [
+    "portfolio",
+    "homepage",
+    "programmer",
+    "programming",
+    "hacker",
+    "hacking",
+    "web",
+    "design",
+    "developer",
+    "development",
+    "coder",
+    "coding",
+    "resume",
+    "cv"
+  ],
+  "author": "Stephen M Irving",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/stephenmirving/homepage/issues"
+  },
+  "homepage": "https://github.com/stephenmirving/homepage#readme",
+  "devDependencies": {
+    "clean-css": "^5.1.1",
+    "eslint": "^7.22.0",
+    "eslint-config-google": "^0.14.0",
+    "htmlhint": "^0.14.2",
+    "stylelint": "^13.12.0",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-group-selectors": "^1.0.8",
+    "stylelint-high-performance-animation": "^1.5.2",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.19.0",
+    "stylelint-z-index-value-constraint": "^1.1.0"
+  }
+}
