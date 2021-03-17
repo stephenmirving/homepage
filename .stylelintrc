@@ -1,7 +1,10 @@
 {
   "ignoreFiles": ["node_modules/**", "**/*.min.css", "**/*.html"],
   "plugins": [
+    "stylelint-csstree-validator",
     "stylelint-group-selectors",
+    "stylelint-high-performance-animation",
+    "stylelint-order",
     "stylelint-scss",
   ],
   "extends": "stylelint-config-recommended-scss",
@@ -199,6 +202,26 @@
     "value-list-comma-newline-after": "always-multi-line",
     "value-list-comma-space-after": "always-single-line",
     "value-list-comma-space-before": "never",
-    "value-list-max-empty-lines": 0
+    "value-list-max-empty-lines": 0,
+
+    "order/order": [
+      [
+        "dollar-variables",
+        "custom-properties",
+        "at-rules",
+        "declarations",
+        {
+          type: "at-rule",
+          name: "supports",
+        },
+        {
+          type: "at-rule",
+          name: "media",
+        },
+        "rules",
+      ],
+      { severity: "warning" },
+    ],
+    "order/properties-alphabetical-order": true
   }
 }
